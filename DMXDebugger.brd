@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,13 +28,13 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1593,28 +1593,28 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="NAME" x="6.893" y="43.349" size="1.016" layer="26" rot="MR90" align="center-left"/>
 </element>
 <element name="LD10" library="led" package="CHIP-LED0603" value="RX4" x="42.75" y="2.5" smashed="yes" rot="R180">
-<attribute name="VALUE" x="42.75" y="4" size="1.27" layer="27" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="42.75" y="4" size="1.27" layer="25" rot="R90" align="center-left"/>
 </element>
 <element name="LD11" library="led" package="CHIP-LED0603" value="TX4" x="44.5" y="2.5" smashed="yes" rot="R180">
-<attribute name="VALUE" x="44.5" y="4" size="1.27" layer="27" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="44.5" y="4" size="1.27" layer="25" rot="R90" align="center-left"/>
 </element>
 <element name="LD12" library="led" package="CHIP-LED0603" value="RX1" x="12.25" y="69" smashed="yes">
-<attribute name="VALUE" x="12.25" y="67.5" size="1.27" layer="27" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="12.25" y="67.5" size="1.27" layer="25" rot="R270" align="center-left"/>
 </element>
 <element name="LD13" library="led" package="CHIP-LED0603" value="TX1" x="14" y="69" smashed="yes">
-<attribute name="VALUE" x="14.095" y="67.385" size="1.27" layer="27" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="14.095" y="67.385" size="1.27" layer="25" rot="R270" align="center-left"/>
 </element>
 <element name="LD14" library="led" package="CHIP-LED0603" value="RX2" x="12.25" y="2.5" smashed="yes" rot="R180">
-<attribute name="VALUE" x="12.25" y="4" size="1.27" layer="27" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="12.25" y="4" size="1.27" layer="25" rot="R90" align="center-left"/>
 </element>
 <element name="LD15" library="led" package="CHIP-LED0603" value="TX2" x="14" y="2.5" smashed="yes" rot="R180">
-<attribute name="VALUE" x="14" y="4" size="1.27" layer="27" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="14" y="4" size="1.27" layer="25" rot="R90" align="center-left"/>
 </element>
 <element name="LD16" library="led" package="CHIP-LED0603" value="RX3" x="42.75" y="69" smashed="yes">
-<attribute name="VALUE" x="42.75" y="67.5" size="1.27" layer="27" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="42.75" y="67.5" size="1.27" layer="25" rot="R270" align="center-left"/>
 </element>
 <element name="LD17" library="led" package="CHIP-LED0603" value="TX3" x="44.5" y="69" smashed="yes">
-<attribute name="VALUE" x="44.5" y="67.5" size="1.27" layer="27" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="44.5" y="67.5" size="1.27" layer="25" rot="R270" align="center-left"/>
 </element>
 <element name="IC19" library="maxim" package="SO08" value="MAX481CSA" x="47" y="58" smashed="yes" rot="MR90">
 <attribute name="OC_NEWARK" value="90C3817" x="-514.34" y="-132.5" size="1.778" layer="28" rot="MR90" display="off"/>

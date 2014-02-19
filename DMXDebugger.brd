@@ -258,7 +258,7 @@
 <text x="85.5" y="24.67" size="1.27" layer="21" align="center-left">DIRECT</text>
 <text x="85.5" y="28.67" size="1.27" layer="21" align="center-left">TO HUB</text>
 <text x="2.75" y="36" size="2.54" layer="21" rot="R90" align="center">DMX/RDM Adapter / RS485 Hub</text>
-<text x="5.75" y="10" size="1.778" layer="21" rot="R90" align="center-left">felitek.de</text>
+<text x="8.5" y="10" size="1.778" layer="21" rot="R90" align="center-left">felitek.de</text>
 </plain>
 <libraries>
 <library name="con-neutrik_ag">
@@ -2314,16 +2314,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="125" y="72"/>
 <vertex x="125" y="0"/>
 </polygon>
-<wire x1="5.9" y1="13.328" x2="8" y2="13.328" width="0.254" layer="16"/>
-<wire x1="8" y1="13.328" x2="8.406" y2="13.328" width="0.254" layer="16"/>
+<wire x1="5.9" y1="13.328" x2="8.406" y2="13.328" width="0.254" layer="16"/>
 <wire x1="8.406" y1="13.328" x2="8.578" y2="13.5" width="0.254" layer="16"/>
 <wire x1="19.155" y1="16.0734" x2="19.155" y2="15" width="0.254" layer="16"/>
 <wire x1="19.155" y1="15" x2="19.155" y2="14.655" width="0.254" layer="16"/>
 <wire x1="19.155" y1="14.655" x2="18.75" y2="14.25" width="0.254" layer="16"/>
 <via x="18.75" y="14.25" extent="1-16" drill="0.3048"/>
-<via x="7.5" y="12" extent="1-16" drill="0.3048"/>
-<wire x1="7.5" y1="12" x2="7.5" y2="12.828" width="0.254" layer="16"/>
-<wire x1="7.5" y1="12.828" x2="8" y2="13.328" width="0.254" layer="16"/>
+<via x="6" y="11.75" extent="1-16" drill="0.3048"/>
 <wire x1="21.09" y1="14.18" x2="19.975" y2="14.18" width="0.254" layer="16"/>
 <wire x1="19.975" y1="14.18" x2="19.155" y2="15" width="0.254" layer="16"/>
 <via x="26" y="7.5" extent="1-16" drill="0.3048"/>
@@ -2452,6 +2449,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="33.25" y1="48.8666" x2="33.19" y2="48.9266" width="0.254" layer="16"/>
 <wire x1="4.25" y1="59.482" x2="5.732" y2="59.482" width="0.254" layer="16"/>
 <wire x1="5.732" y1="59.482" x2="6" y2="59.75" width="0.254" layer="16"/>
+<wire x1="6" y1="11.75" x2="6" y2="13.228" width="0.254" layer="16"/>
+<wire x1="6" y1="13.228" x2="5.9" y2="13.328" width="0.254" layer="16"/>
 </signal>
 <signal name="DATA+">
 <contactref element="TOHUB1" pad="3"/>
@@ -2975,7 +2974,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="77" y1="59.5" x2="77" y2="61.198" width="0.254" layer="16"/>
 <wire x1="76.198" y1="62" x2="76.198" y2="61.75" width="0.254" layer="16"/>
 <wire x1="76.198" y1="61.75" x2="76.748" y2="61.2" width="0.254" layer="16"/>
-<wire x1="77" y1="61.198" x2="76.748" y2="61.2" width="0" layer="19" extent="16-16"/>
+<wire x1="77" y1="61.198" x2="76.75" y2="61.198" width="0.254" layer="16"/>
+<wire x1="76.75" y1="61.198" x2="76.748" y2="61.2" width="0.254" layer="16"/>
 </signal>
 <signal name="HUB4_B">
 <contactref element="TOHUB4" pad="6"/>

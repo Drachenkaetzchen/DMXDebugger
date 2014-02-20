@@ -7,7 +7,7 @@ This is a board which allows you to:
 - Terminate each port and enable/disable RX (only if port is connected to the RS485 hub)
 - Connect a logic probe to the RS485 hub or to the secondary data ports (useful for the OLA logic sniffer)
 - Display RX/TX status (RS485 hub mode only)
-- Powered via battery (9V) or US or USB)
+- Powered via battery (9V) or USB
 
 # Applications
 
